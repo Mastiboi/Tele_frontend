@@ -17,14 +17,16 @@ export default function Verification() {
           Verify below to be granted entry
         </p>
         <div className="flex items-center justify-center w-full mt-3">
+          <Link to="/premium">
           <button
             className="w-full px-3 py-3 my-4 font-mono text-base rounded text-white bg-gradient-to-r 
             from-[#385446] via-[#366950] to-[#3c7659] 
             hover:bg-gradient-to-br shadow-lg"
-            onClick={() => (window.location.href = "/premium")}
+            onClick={() => {}}
           >
             Click here
           </button>
+          </Link>
         </div>
       </div>
     </div>
