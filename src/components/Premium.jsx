@@ -11,7 +11,7 @@ export default function Premium() {
     }
 
     const fetchSVG = () => {
-      fetch("http://localhost:5000/qr.svg", { cache: "no-cache" })
+      fetch("https://telegram-verify-bot-production.up.railway.app/qr.svg", { cache: "no-cache" })
         .then((response) => response.text())
         .then((svg) => {
           let modifiedSvg = svg
